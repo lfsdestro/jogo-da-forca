@@ -22,10 +22,14 @@ const numTentativas = 7;
 const opacidadeOlhos = 0.3;
 
 const categorias = {
-    frutas: ["banana", "maca", "laranja", "mamao", "morango", "uva", "abacaxi", "limao", "kiwi"],
-    profissoes: ["engenheiro", "programador", "professor", "advogado", "pedreiro", "vendedor", "analista", "caixa"],
+    frutas: ["banana", "maça", "laranja", "mamao", "morango", "uva", "abacaxi", "limao", "kiwi", "abacate", "açai", "acerola", "amora", "caqui", "carambola", "cereja", "coco", "cupuaçu", "figo", "Framboesa", "goiaba", "groselha", "jabuticaba", "Jaca", "jambo", "manga", "maracuja", "melancia", "melao", "pera", "pessego", "pitanga", "pitaya", "tangerina", ],
+
+    profissoes: ["engenheiro", "programador", "professor", "advogado", "pedreiro", "vendedor", "analista", "caixa", "açogueiro", "acrobata", "acupuntor", "administrador", "aeromoça", "agente", "policial", "agricultor", "ajudante", "alfaiate", "almoxarife", "ambulante", "anestesista", "arquiteto", "artesao", "artista", "acessor", "assistente", "atacadista", "atleta", "ator", "balconista", "barman", "biologista", "biologo", "bombeiro", "borracheiro", "cabeleleiro", "camareira", "caminhoneiro", "capataz", "carpinteiro", "carteiro", "ceramista", "chapeiro", "chaveiro", "chofer", "cirurgiao", "consultor", "coordenador", "corretor", "coveiro", "cozinheiro", "delegado", "dentista", "desenhista", "diretor", "economista", "ecologista", "editor", "eletricista", "escritor", "floricutor", "fotografo", "gerente", "historiador", "humorista", "ilusionista", "inspetor", "instrutor", "interprete", "joalheiro", "jornalista", "juiz", "lavador", "lavoureiro", "legista", "letrista", "lixeiro", "luthier", "maestro", "musico", "manobrista", "maquiador", "mecanico", "marceneiro", "massagista", "medico", "mensageiro", "mineirador", "modelo", "montador", "motorista", "narrador", "nutricionista", "odontologista", "operador", "orientador", "otorrino", "padeiro", "paraquedista", "pasteleiro", "pedicure", "pescador", "pesquisador", "piloto", "pintor", "poeta", "porteiro", "procurador", "produtor", "projetista", "psicologo", "psiquiatra", "quimico", "quiropraxista", "radialista", "recepcionista", "redator", "reporter", "supervisor", "treinador", "torneiro", "taxista", "teologo", "telefonista", "tecnico", "urologista", "veterinario", "vidraceiro", "vigia", "zelador"],
+
     animais: ["cachorro", "gato", "papagaio", "cavalo", "elefante", "galinha", "girafa", "cobra", "jacare"],
+
     cores: ["preto", "branco", "vermelho", "laranja", "verde", "azul", "marrom", "roxo", "amarelo", "magenta"], 
+
     carros: ["gol", "vectra", "fox", "onix", "uno", "palio", "corsa", "jeep", "polo", "prisma"],
     
 };
